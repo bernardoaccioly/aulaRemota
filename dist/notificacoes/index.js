@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.WhatsAppNotificacao = exports.AppNotificacao = exports.EmailNotificacao = exports.SmsNotificacao = void 0;
+var SmsNotificacao_js_1 = require("./SmsNotificacao.js");
+Object.defineProperty(exports, "SmsNotificacao", { enumerable: true, get: function () { return SmsNotificacao_js_1.SmsNotificacao; } });
+var EmailNotificacao_js_1 = require("./EmailNotificacao.js");
+Object.defineProperty(exports, "EmailNotificacao", { enumerable: true, get: function () { return EmailNotificacao_js_1.EmailNotificacao; } });
+var AppNotificacao_js_1 = require("./AppNotificacao.js");
+Object.defineProperty(exports, "AppNotificacao", { enumerable: true, get: function () { return AppNotificacao_js_1.AppNotificacao; } });
+var WhatsAppNotificacao_js_1 = require("./WhatsAppNotificacao.js");
+Object.defineProperty(exports, "WhatsAppNotificacao", { enumerable: true, get: function () { return WhatsAppNotificacao_js_1.WhatsAppNotificacao; } });

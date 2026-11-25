@@ -1,0 +1,14 @@
+{
+  "name": "banco-digital-cooperativa",
+  "version": "1.0.0",
+  "description": "Banco digital da cooperativa: exceções, associações e interfaces em TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
